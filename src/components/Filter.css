@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    max-width: 1200px;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 25%;
+}
+
+.input {
+    width: 50%;
+
+}
+
+.list {
+    width: 25%;
+}
+
+.input input {
+    margin: 0;
+    padding: 0;
+    /* padding: 10px; */
+    /* border-radius: 5px; */
+    /* border: 1px solid; */
+    width: 100%;
+    max-width: 1000px;
+    height: 40px;
+    /* border-style: none; */
+    border-width: 1px;
+    /* border-color: transparent; */
+    border-radius: 8px;
+    border-style: none;
+
+    border-color: aliceblue;
+
+}
+input{
+    background-color:aliceblue;
+    border-color: none;
+
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+ul li {
+    flex-grow: 1;
+}
+
+.img-parent {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-child {
+    max-width: 300px;
+    padding: 50px;
+}
+
+.img-child img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
