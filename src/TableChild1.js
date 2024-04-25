@@ -5,15 +5,7 @@ function TableChild1(props) {
     const [childdata, setChilddta] = useState()
     const [newtable, setNewTable] = useState(val)
     
-// function handlesubmit(a) {
 
-//         console.log(a);
-//         setNewTable(
-//             [...newtable, a]
-//         );
-
-//         console.log(newtable, 'newtable');
-//     }
 
     function handlesubmit(a) {
         console.log(a)

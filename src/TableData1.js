@@ -35,4 +35,3 @@ export const arrayobject1=[
         mailid : 'akashg@gmail,com'
     },
 ]
-export const td1=['ID','NAME','AGE','MAILID','PHONENO',];

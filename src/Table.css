@@ -1,47 +1,99 @@
- 
+ body {
+   background-color: bisque;
+ }
+
  .table {
    width: 100%;
-   border-collapse:collapse ;
-   margin-left: 10px;
-   margin-right: 10px;
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1000px;
+
+ }
+
+ .table h1 {
+   text-decoration: underline;
+   text-align: center;
+
+
+ }
+
+ .table tr,
+ th,
+ td {
+   border: 1px solid black;
+   /* font-size: 20px; */
+
+ }
+
+ .table tr {
+   text-align: center;
+ }
+
+ .card {
+   min-width: 300px;
+   min-height: 500px;
+   margin: 10px;
+   background-color: rgb(189, 197, 197);
+   padding: 20px;
+
+ }
+
+ .card-d button:active {
+   /* display: none; */
+ }
+
+ .card-d {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .table-1 {
+   width: 100%;
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
    max-width: 1000px;
    
+
+
+
  }
-  .table tr,th,td{
+
+ .table-1 tr,
+ th,
+ td {
    border: 1px solid black;
-  
-  }
-  .table tr{
-    text-align: center;
-  }
-  .card{
-min-width: 300px;
-min-height: 500px;
-margin: 10px;
-background-color: rgb(189, 197, 197);
-padding: 20px;
-    
-  }
-  .card-d button:active{
-    /* display: none; */
-  }
-   .card-d{
-    display: flex;
-    flex-wrap: wrap;
-  } 
-  .table-1 {
-    width: 100%;
-    border-collapse:collapse ;
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: 1000px;
-    margin-top: 50px;
-    
-  }
-   .table-1 tr,th,td{
-    border: 1px solid black;
-   
-   }
-   .table-1 tr{
-     text-align: center;
-   }
+   font-size: 20px;
+
+ }
+
+ .table-1 tr {
+   text-align: center;
+ }
+
+ .input-v {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+
+ }
+
+ .input-v input {
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+   margin: 5px;
+   border-radius: 5px;
+   font-size: 17px;
+
+
+ }
+
+ td {
+   max-width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   margin: 100px;
+ }
