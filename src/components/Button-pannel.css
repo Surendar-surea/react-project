@@ -1,0 +1,49 @@
+.header-1 {
+  
+    font-size: 20px;
+    background-color: whitesmoke;
+
+}
+
+.header-1 .btn {
+    position: relative;
+    left: 1000px;
+    max-width: 300px;
+    border-style: none;
+
+
+}
+
+
+.drop-down {
+    position: relative;
+    cursor: pointer;
+    
+
+
+
+}
+
+.dop-down-content {
+    position: absolute;
+    
+    background-color: whitesmoke;
+   
+    padding: 20px;
+
+    display: none;
+    font-size: 15px;
+}
+
+.drop-down:hover .dop-down-content {
+    display: block;
+    transition: width 2s, height 4s;
+
+
+
+}
+.dop-down-content:hover{
+    text-decoration: underline;
+    
+    
+}

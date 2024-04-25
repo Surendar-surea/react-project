@@ -1,0 +1,60 @@
+.mob-1 {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mob-1
+
+.mob {
+
+    max-width: 200px;
+    /* max-width: 300px; */
+    padding: 20px;
+    /* background-color: aqua; */
+
+
+}
+.body{
+    background-color:white
+}
+
+.mob h2 {
+    font-size: 15px;
+
+    font-weight: normal;
+}
+
+.mob p {
+    font-size: 15px;
+}
+
+
+.img-1 {
+    width: 200px;
+    height: 200px;
+    background-color: none;
+
+
+}
+
+.rate {
+    font-weight: bold;
+}
+.ram{
+    padding-bottom: 10px;
+}
+.btn button{
+    border: none;
+    margin: 10px;
+    font-style: normal;
+    font-size: smaller;
+    background-color: #dad8d5ec;
+    border-style:hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn{
+    margin-left: 700px;
+    
+}
